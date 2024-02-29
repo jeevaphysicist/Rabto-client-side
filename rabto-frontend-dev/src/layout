@@ -1,0 +1,15 @@
+<div className='mx-5 min-h-screen pb-5'>
+            <div className='flex p-4'>        
+               <div className="flex-1 text-left"><Link to="/dashboard"><FaArrowLeft className='text-[20px]' /></Link></div>
+            </div>
+
+          <!-- Footer -->
+            <div className='h-[50px] my-auto  bottom-0 left-0 right-0 bg-white'>
+                  <div className='flex items-center justify-center  '>
+                        <div className="flex items-center  justify-center gap-2">
+                          <img src={Minilogo} alt='Minilogo' className='w-[23px]' />
+                          <span className='text-[30px] vvdsfifties text-[#1D1D1D]'>RABTO</span>         
+                        </div>
+                    </div>
+                  </div>
+</div>

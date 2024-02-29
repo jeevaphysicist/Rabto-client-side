@@ -1,0 +1,41 @@
+.emain-cont{
+    display: flex;
+}
+
+
+.snavmain{
+    width: 24%;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.snavcomplogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.enavlogo{
+    width: 55%;
+}
+
+.snavcompmenu{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: start;
+    width: 100%;
+    gap: 12px;
+    margin-top: -150px;
+}
+
+.snavcomplog{
+    padding: 0px 32px;
+    text-align: start;
+    width: 100%;
+}

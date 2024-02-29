@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts  */
+/* fonts  */
+
+@font-face {
+    font-family: gilroyLight;
+    src: url(./Fonts/gilroy/Gilroy-Light.ttf);
+}
+@font-face {
+    font-family: gilroyBold;
+    src: url(./Fonts/gilroy/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: gilroyMedium;
+    src: url(./Fonts/gilroy/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: gilroyEBold;
+    src: url(./Fonts/gilroy/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'VVDS Fifties';
+    src: url('./Fonts/VVDS Fifties/vvds-fifties-condensed.ttf') format('truetype'),
+         url('./Fonts/VVDS Fifties/vvds-fifties-condensed.woff') format('woff'),
+         url('./Fonts/VVDS Fifties/vvds-fifties-condensed.woff2') format('woff2');
+  }
+@font-face {
+    font-family: montserratEBold;
+    src: url(./Fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.montserrat-font {
+    font-family: 'Montserrat';
+}
+
+
+.vvdsfifties{
+    font-family: 'VVDS Fifties';
+}
+
+.poppins{
+    font-family: 'Poppins';
+}
+
+.montserratEBold{
+    font-family: montserratEBold;
+    /* font-size: 130px; */
+    text-shadow: 4px 4px 4px #7F5277;
+}
+
+.gilroyLight{
+    font-family: gilroyLight;
+}
+.gilroyBold{
+    font-family: gilroyBold;
+}
+.gilroyEBold{
+    font-family: gilroyEBold;
+}
+.gilroyMedium{
+    font-family: gilroyMedium;
+}
+
+.Roboto-Font{
+    font-family: 'Roboto';
+}
